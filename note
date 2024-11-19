@@ -11,3 +11,7 @@ node webpack_mixer.txt -l runtime.62249a5.js -m app.597640f.js -o webout.js
 函数模块的js特征:
 1.一般以(windows.webpackJsonp开头)
 -o 输入结果的js路径
+
+安装好nodejs以后,  如果运行脚本出现依赖问题,则安装依赖:
+
+npm install @babel/parser
